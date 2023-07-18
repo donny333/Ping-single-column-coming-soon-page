@@ -77,6 +77,11 @@ form button {
   color: #fff;
   font-weight: 500;
   box-shadow: 0px 6px 8px 2px var(--lightBlue);
+  transition-duration: 200ms;
+}
+form button:hover {
+  cursor: pointer;
+  background-color: var(--hoverBlue);
 }
 
 #dashboard {
@@ -101,18 +106,22 @@ footer > p {
   justify-content: center;
   gap: 16px;
 }
-.socialMedia > div {
+.socialMedia > i {
   width: 32px;
   height: 32px;
-  border: 1px solid var(--grey);
-  border-radius: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.socialMedia > div > i {
   font-size: 16px;
   color: var(--blue);
+  border: 1px solid var(--grey);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 32px;
+  transition-duration: 200ms;
+}
+.socialMedia > i:hover {
+  cursor: pointer;
+  background-color: var(--hoverBlue);
+  border: none;
+  color: white;
 }
 
 @media only screen and (min-width: 775px) {

@@ -73,6 +73,11 @@ form {
         color: #fff;
         font-weight: 500;
         box-shadow: 0px 6px 8px 2px var(--lightBlue);
+        transition-duration: 200ms;
+    }
+    button:hover {
+        cursor: pointer;
+        background-color: var(--hoverBlue);
     }
 }
 
@@ -97,18 +102,22 @@ footer {
     display: flex;
     justify-content: center;
     gap: 16px;
-    > div {
+    > i {
         width: 32px;
         height: 32px;
+        font-size: 16px;
+        color: var(--blue);
         border: 1px solid var(--grey);
         border-radius: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        > i {
-            font-size: 16px;
-            color: var(--blue);
-        }
+        text-align: center;
+        line-height: 32px;
+        transition-duration: 200ms;
+    }
+    > i:hover{
+        cursor: pointer;
+        background-color: var(--hoverBlue);
+        border: none;
+        color: white;
     }
 }
 
