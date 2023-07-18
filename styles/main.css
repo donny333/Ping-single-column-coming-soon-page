@@ -54,6 +54,9 @@ form {
   flex-direction: column;
   margin: 0 32px;
   gap: 8px;
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
 }
 form input {
   height: 50px;
