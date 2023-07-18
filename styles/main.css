@@ -137,7 +137,7 @@ footer > p {
 .socialMedia > i:hover {
   cursor: pointer;
   background-color: var(--hoverBlue);
-  border: none;
+  border: 1px transparent;
   color: white;
 }
 
