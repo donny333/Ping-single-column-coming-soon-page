@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -45,6 +46,7 @@ header {
         font-weight: 300;
         margin-top: 0;
         font-size: 16px;
+        color: var(--grey);
     }
 }
 
@@ -54,8 +56,8 @@ form {
     margin: 0 32px;
     gap: 8px;
     input {
-        height: 40px;
-        border-radius: 24px;
+        height: 50px;
+        border-radius: 25px;
         padding-left: 36px;
         border: 1.5px solid var(--lightBlue);
     }
@@ -64,8 +66,8 @@ form {
         font-size: 16px;
     }
     button {
-        height: 40px;
-        border-radius: 20px;
+        height: 50px;
+        border-radius: 25px;
         background-color: var(--blue);
         border: none;
         color: #fff;
@@ -75,10 +77,10 @@ form {
 }
 
 #dashboard {
-    width: 100%;
     padding: 0 16px;
+    margin-top: 32px;
     > img {
-        width: calc(100% - 32px);
+        width: 100%;
     }
 }
 
@@ -96,16 +98,40 @@ footer {
     justify-content: center;
     gap: 16px;
     > div {
-        width: 48px;
-        height: 48px;
+        width: 32px;
+        height: 32px;
         border: 1px solid var(--grey);
         border-radius: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         > i {
-            font-size: 24px;
+            font-size: 16px;
             color: var(--blue);
+        }
+    }
+}
+
+@media only screen and (min-width: 775px) {
+    #submission{
+        > h1 {
+            font-size: 40px;
+        }
+        > h3 {
+            font-size: 20px;
+        }
+    }
+    form {
+        width: 600px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+    }
+    #dashboard {
+        display: flex;
+        justify-content: center;
+        >img {
+            max-width: 600px;
         }
     }
 }
