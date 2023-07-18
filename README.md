@@ -29,4 +29,4 @@ Users are be able to:
 - Mobilefirst design
 
 ## You can check this challenge on 
-<a target="_blank">https://donny333.github.io/Ping-single-column-coming-soon-page/</a>
+<a href="https://donny333.github.io/Ping-single-column-coming-soon-page/" target="_blank">https://donny333.github.io/Ping-single-column-coming-soon-page/</a>
