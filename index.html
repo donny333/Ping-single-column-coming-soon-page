@@ -6,6 +6,7 @@
   <script src="https://kit.fontawesome.com/15afdb5639.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles/main.css">
   <title>Frontend Mentor | Ping coming soon page</title>
+  <script src="./scripts/main.js" type="module" ></script>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -19,9 +20,12 @@
   <section id="submission">
     <h1>We are launching <span>soon!</span></h1>
     <h3>Subscribe and get notified</h3>
-    <form action="">
-      <input type="email" placeholder="Your email adress...">
+    <form action="" id="emailForm">
+      <input type="text" name="email" id="email" placeholder="Your email adress...">
       <button type="submit">Notify Me</button>
+      <div id="errorMessage">
+        
+      </div>
     </form>
   </section>
   <section id="dashboard">

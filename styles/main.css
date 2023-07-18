@@ -10,6 +10,10 @@
   --error: hsl(354, 100%, 66%) ;
 }
 
+.colorBlue {
+  color: var(--darkBlue);
+}
+
 body {
   min-height: 100vh;
   padding: 0;
@@ -32,7 +36,8 @@ header {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  padding: 0 32px;
+  width: calc(100% - 64px);
+  padding: 32px;
 }
 #submission > h1 {
   font-size: 24px;
@@ -59,7 +64,6 @@ header {
   margin: 0 32px;
   gap: 8px;
   width: 100%;
-  padding: 0 32px;
   box-sizing: border-box;
 }
 #submission > form input {
@@ -89,6 +93,12 @@ header {
 #submission > form button:hover {
   cursor: pointer;
   background-color: var(--hoverBlue);
+}
+
+#errorMessage {
+  width: 100%;
+  color: var(--error);
+  text-align: center;
 }
 
 #dashboard {
