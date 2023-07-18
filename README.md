@@ -28,4 +28,5 @@ Users are be able to:
 - Design and scripts were done on different branches
 - Mobilefirst design
 
-## You can check this challenge on <a>https://donny333.github.io/Ping-single-column-coming-soon-page/</a>
+## You can check this challenge on 
+<a target="_blank">https://donny333.github.io/Ping-single-column-coming-soon-page/</a>
